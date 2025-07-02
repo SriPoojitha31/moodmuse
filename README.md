@@ -85,15 +85,3 @@ Visit http://localhost:3000 to use MoodMuse locally.
 🗂️ Export mood logs as PDF
 
 ✨ Theme customization and dark mode
-
-
----
-
-### ✅ What to Do Next:
-
-1. Copy the full code above into your `README.md` file in your repo.
-2. Add your `.env` variables and run the app locally if needed.
-3. Let me know if you want:
-   - Badges (stars, forks, license)
-   - GIF demo or screenshots section
-   - Live demo link if deployed
