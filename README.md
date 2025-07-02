@@ -39,24 +39,6 @@ We’re currently working on making all functionalities fully integrated — so 
 
 ---
 
-## 📂 Folder Structure
-
-moodmuse/
-├── frontend/
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ └── utils/
-├── backend/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── server.js
-└── README.md
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
