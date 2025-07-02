@@ -1,37 +1,117 @@
-<<<<<<< HEAD
-# MoodMuse
+# 🎭 MoodMuse
 
-A fullstack mood and wellness tracker app.
+**MoodMuse** is an AI-powered mood tracking and journaling web app that promotes mental wellness through emotional awareness. Users can log their daily moods, receive AI-driven sentiment analysis, and visualize mood trends — all in a clean, engaging interface.
 
-## Local Development
+> 🧠 Built with React, Node.js, Express, MongoDB, and AI/NLP APIs for a personalized emotional insight platform.
 
-1. **Backend**
-   - `cd backend`
-   - `npm install`
-   - Copy `.env.example` to `.env` and fill in your secrets
-   - `npm run dev`
 
-2. **Frontend**
-   - `cd frontend`
-   - `npm install`
-   - Create `.env` with `VITE_API_URL=http://localhost:5000/api`
-   - `npm run dev`
+---
 
-3. Visit [http://localhost:5173](http://localhost:5173)
+## 🔧 Project Status
 
-## Docker Compose
+🚧 **This project is still under active development.**  
+New features and improvements are continuously being added.  
+We’re currently working on making all functionalities fully integrated — so final touches may take some more time. Feedback and contributions are always welcome!
 
-1. `cd docker`
-2. `docker-compose up --build`
-3. Frontend: [http://localhost:5173](http://localhost:5173)
-4. Backend: [http://localhost:5000](http://localhost:5000)
+---
 
-## Testing
+## 🌟 Features
 
-- Backend: `cd backend && npm test`
+- ✍️ **Mood Entry Logging** — Users can add mood entries with notes and time
+- 💡 **Sentiment Analysis** — Integrated AI classifies moods (happy, neutral, sad, etc.)
+- 📊 **Mood Charts** — Visualize emotional trends using interactive charts
+- 🔊 **Voice Note Input** *(in-progress)* — Allow mood journaling using speech
+- 📖 **Motivational Quotes** — Get daily quotes tailored to your emotional state
+- 🔐 **Authentication (Planned)** — Secure sign-up and personal journaling
+- 🧘 **Minimal UI** — Elegant design with focus on user experience
 
-## Folder Structure
-- See docs/ for API and deployment details. 
-=======
+---
 
->>>>>>> 9ba4f91a1fc180273eaf8b505361c96c3db05141
+## 🛠️ Tech Stack
+
+| Layer         | Technology Used                               |
+|---------------|-----------------------------------------------|
+| Frontend      | React.js, HTML, CSS, Chart.js                 |
+| Backend       | Node.js, Express.js                           |
+| Database      | MongoDB Atlas                                 |
+| AI/NLP        | Hugging Face Transformers / OpenAI API        |
+| Tools         | Git, Render (deployment), VS Code, Postman    |
+
+---
+
+## 📂 Folder Structure
+
+moodmuse/
+├── frontend/
+│ ├── public/
+│ └── src/
+│ ├── components/
+│ ├── pages/
+│ └── utils/
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ └── server.js
+└── README.md
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```
+git clone https://github.com/SriPoojitha31/moodmuse.git
+cd moodmuse
+```
+### 2.Install dependencies
+For frontend:
+```
+cd frontend
+npm install
+```
+For backend:
+```
+cd ../backend
+npm install
+```
+### 3.Start the development servers
+In one terminal tab:
+```
+cd frontend
+npm start
+```
+In another tab:
+```
+cd backend
+npm run dev
+```
+Visit http://localhost:3000 to use MoodMuse locally.
+
+---
+
+## Future Enhancements
+
+📱 Mobile-responsive UI/UX
+
+📅 Calendar mood view
+
+🧠 NLP-based insights on emotional patterns
+
+🔔 Notification reminders for daily entries
+
+🗂️ Export mood logs as PDF
+
+✨ Theme customization and dark mode
+
+
+---
+
+### ✅ What to Do Next:
+
+1. Copy the full code above into your `README.md` file in your repo.
+2. Add your `.env` variables and run the app locally if needed.
+3. Let me know if you want:
+   - Badges (stars, forks, license)
+   - GIF demo or screenshots section
+   - Live demo link if deployed
