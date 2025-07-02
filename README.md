@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MoodMuse
 
 A fullstack mood and wellness tracker app.
@@ -31,3 +32,6 @@ A fullstack mood and wellness tracker app.
 
 ## Folder Structure
 - See docs/ for API and deployment details. 
+=======
+
+>>>>>>> 9ba4f91a1fc180273eaf8b505361c96c3db05141
